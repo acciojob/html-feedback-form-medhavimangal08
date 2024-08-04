@@ -8,6 +8,25 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form action="/submit" method="post">
+        <!-- Name Field -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" minlength="3" maxlength="50" required>
+        <br>
+
+        <!-- Portfolio Field -->
+        <label for="portfolio">Portfolio:</label>
+        <input type="url" id="portfolio" name="portfolio" required>
+        <br>
+
+        <!-- Favorite Color Field -->
+        <label for="favColor">Favorite Color:</label>
+        <input type="color" id="favColor" name="favColor">
+        <br>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
     <script type="text/javascript" src="./script.js">
 </script>
 
